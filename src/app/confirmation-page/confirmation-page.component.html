@@ -1,0 +1,30 @@
+<div class="content">
+  <div class="o-c">
+    <div>
+      <div class="card">
+        <p class="a-o-i">Date of Birth:
+<mat-form-field>
+  <input matInput [matDatepicker]="picker" placeholder="    mm/dd/yyyy">
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker startView="year" [startAt]="startDate"></mat-datepicker>
+</mat-form-field>
+<br>
+SSN:
+<input type="text" name="ssn" style="width:200px; height:30px" value="" placeholder="XXX-XX">
+
+</p>
+<div style="float: left; width: 250px">
+  <button (click)="onConfirm()" >Confirm</button>
+</div>
+<div style="float: right; width: 150px">
+  <button (click)="onCancel()" >Cancel</button>
+</div>
+
+<br>
+</div>
+</div>
+</div>
+</div>
+
+
+

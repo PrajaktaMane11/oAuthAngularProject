@@ -1,0 +1,21 @@
+<div class="content">
+  <div class="o-c">
+    <div>
+      <div class="card">
+        <p class="a-o-i">OTP
+        <ng-otp-input #ngOtpInput (onInputChange)="onOtpChange($event)" *ngIf="showOtpComponent" [config]="config"></ng-otp-input>
+        <span *ngIf="otp" class="o-t-p">Entered otp :-{{otp}}</span>
+      </p>
+      <button (click)="onSubmit()" >Submit</button>
+
+      </div>
+      <br><br>
+      <!--<button (click)= "submit()">
+        Submit
+      </button>-->
+      <!--<input type="button" value="Submit" (click)="onSubmit()" />  -->
+      <br><br>
+
+    </div>
+  </div>
+</div>
