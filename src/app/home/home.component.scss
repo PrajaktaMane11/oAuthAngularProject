@@ -20,13 +20,13 @@
 }
 
 
-.card {
-  padding: 2rem;
-  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
-  border-radius: 4px;
-  background: white;
-  margin: 0 auto;
-}
+// .card {
+//   padding: 2rem;
+//   box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+//   border-radius: 4px;
+//   background: white;
+//   margin: 0 auto;
+// }
 
 .o-t-p {
   display: block;
@@ -46,7 +46,7 @@
     height: auto;
   }
   .content {
-    width: 100%;
+    width: 100vw;
   }
   .o-c {
     display: block;
